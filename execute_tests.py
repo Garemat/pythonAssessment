@@ -154,6 +154,6 @@ print(output)
 #Write output to reportfile
 with open(reportName, 'w') as f:
     print(output, file=f)
-    
+
 #Delete compiled bytecode files that are generated on import
 os.system("rm -rf *.pyc")
