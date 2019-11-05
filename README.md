@@ -1,5 +1,4 @@
-#
-Hackerrank git repo
+#Hackerrank git repo
 
 ##In order to run the framwork use
 
