@@ -61,13 +61,6 @@ def runTest(testFile, reportName):
     return passed
 
 
-#Defining function blocks for -l, makes future changes a little easier
-def listTags():
-    print ("Possible tags are: short, long, endurance, performance or must_pass")
-def listPlans():
-    print ("plan list")
-def listTests():
-    print ("test list")
 
 #====================================================END OF FUNCTIONS====================================================
 
@@ -78,11 +71,11 @@ plan, test, tag, list = get_args()
 if list != None:
     #Reads list parameter
     if list == "tag":
-        listTags()
+        print ("Possible tags are: short, long, endurance, performance or must_pass")
     elif list == "plan":
-        listPlans()
+        os.system("ls | grep .csv")
     elif list == "test":
-        listTests()
+        os.system("ls | grep .py | grep -v 'execute_tests.py'")
     else:
         print('Unknown option: %s\nPotential options are: tag, plan or test' % list)
     raise SystemExit

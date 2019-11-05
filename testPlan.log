@@ -1,4 +1,0 @@
-test1 file has passed testing. Result = 1 Test is tagged as: must_pass
-test2 file has passed testing. Result = 1 Test is tagged as: must_pass
-test3 file has passed testing. Result = 1 Test is tagged as: must_pass
-test4 file has failed testing. This test is marked as must_pass. Exiting...
