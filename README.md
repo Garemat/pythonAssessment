@@ -1,6 +1,6 @@
-#Hackerrank git repo
+# Hackerrank git repo
 
-##In order to run the framwork use
+## In order to run the framwork use
 
 `./execute_test.py <parameter>`
 
